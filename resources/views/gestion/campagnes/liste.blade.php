@@ -1,0 +1,110 @@
+@extends('layouts.master')
+@section('other-css-files')
+    <link rel="stylesheet" type="text/css"
+        href="{{ asset('assets/css/themes/vertical-modern-menu-template/materialize.css') }}">
+    <link rel="stylesheet" type="text/css" href="{{ asset('assets/css/themes/vertical-modern-menu-template/style.css') }}">
+    <link rel="stylesheet" type="text/css" href="{{ asset('assets/css/pages/form-select2.css') }}">
+
+    <link rel="stylesheet" type="text/css" href="{{ asset('assets/css/pages/page-users.css') }}">
+@endsection
+@section('main_content')
+@section('page-title')
+    Campagnes
+@endsection
+@section('ariane')
+    <li class="breadcrumb-item">
+        <a href="/dashboard">Accueil</a>
+    </li>
+    <li class="breadcrumb-item">
+        <a href="/langue">Campagnes</a>
+    </li>
+    <li class="breadcrumb-item active">Liste des campagnes
+    </li>
+@endsection
+{{-- 
+<section class="users-list-wrapper section">
+    <div class="users-list-filter">
+        <div class="card-panel">
+            <div class="row">
+
+                <div class="col s12 m6 l4 display-flex align-items-center show-btn">
+
+                    <a type="button" class="btn green waves-effect waves-light btn-sm ml-3" {{-- href="{{ url('/louma-mbay/produits/create') }}"><i class="material-icons">add_circle</i>
+                        href="langue/create"><i class="material-icons">add_circle</i>
+                        Campagne</a>
+
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="users-list-table">
+        <div class="card">
+            <div class="card-content">
+                <!-- datatable start -->
+                <div class="responsive-table">
+                    <table id="data-table-simple" class="table">
+                        <thead>
+                            <tr>
+                                {{-- <th>ID</th>
+                                <th>Nom</th>
+                                <th class="text-center">Actions</th>
+                            </tr>
+                        </thead>
+                        <tbody id="">
+                            @isset($langues)
+                                @foreach ($langues as $item)
+                                    <tr>
+                                        <td>{{ $item['langue'] }}</td>
+                                        <td>
+                                            <a href="/langue/modifier/{{ $item['id'] }}">
+                                                <i class="material-icons orange-text ">edit</i>
+                                            </a>
+                                            <a href="/langue/delete/{{ $item['id'] }}" class="px-1">
+                                                <i class="material-icons red-text ">delete</i>
+                                            </a>
+                                        </td>
+                                    </tr>
+                                @endforeach
+                            @endisset
+                        </tbody>
+                    </table>
+                </div>
+                <!-- datatable ends -->
+            </div>
+        </div>
+    </div>
+</section>
+@endsection
+
+@section('other-js-script')
+<!-- END PAGE VENDOR JS-->
+<!-- BEGIN THEME  JS-->
+<script src="{{ asset('assets/js/scripts/form-select2.js') }}"></script>
+
+<script src="{{ asset('assets/js/plugins.js') }}"></script>
+<script src="{{ asset('assets/js/search.js') }}"></script>
+<script src="{{ asset('assets/js/custom/custom-script.js') }}"></script>
+<script src="{{ asset('assets/js/scripts/customizer.js') }}"></script>
+
+{{-- <script src="{{ asset('assets/js/scripts/page-users.js') }}"></script>
+<script src="{{ asset('assets/js/scripts/advance-ui-modals.js') }}"></script>
+<script src="{{ asset('assets/js/scripts/form-elements.js') }}"></script>
+<script src="{{ asset('assets/js/scripts/ui-alerts.js') }}"></script>
+
+<script src="{{ asset('assets\js\crud\gestion\utilisateurs\edit.js') }}"></script>
+
+<script src="{{ asset('assets\js\crud\gestion\utilisateurs\create.js') }}"></script>
+<script src="{{ asset('assets\js\providers\location.js') }}"></script>
+{{-- <script src="{{asset('assets\js\providers\entity.js')}}"></script>
+<script src="{{ asset('assets\js\providers\entity.js') }}"></script>
+
+<script src="{{ asset('assets\js\crud\gestion\utilisateurs\read.js') }}"></script>
+{{-- <script src="{{ asset('assets\js\crud\gestion\utilisateurs\filter.js') }}"></script>
+<script src="{{ asset('assets\js\crud\gestion\utilisateurs\role\read.js') }}"></script>
+<script src="{{ asset('assets\js\crud\gestion\utilisateurs\user-state.js') }}"></script>
+
+{{-- <script type="text/javascript">$(".select2").select2({
+  dropdownAutoWidth: true,
+  width: '100%'
+});</script>
+@endsection --}}

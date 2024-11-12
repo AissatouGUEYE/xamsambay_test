@@ -1,0 +1,238 @@
+{
+    "menu": [
+        {
+            "url": "dashboard",
+            "name": "Dashboard Admin",
+            "i18n": "Dashboard",
+
+            "slug": "dashboard",
+            "icon": "dashboard"
+        },
+        {
+            "navheader": "Gestion",
+            "icon": "more_horiz"
+        },
+        {
+            "url": "javascript:void(0)",
+            "name": "Utilisateurs",
+            "i18n": "Utilisateurs",
+            "class": "collapsible-header waves-effect waves-cyan",
+            "slug": "dashboard",
+            "icon": "person_outline",
+            "tagcustom": "badge pill orange float-right mr-10",
+            "submenu": [
+                {
+                    "url": "javascript:void(0)",
+                    "name": "Profil",
+                    "i18n": "Profil",
+                    "class": "collapsible-header waves-effect waves-cyan",
+                    "slug": "dashboard",
+                    "icon": "person_outline",
+                    "tag": "3",
+                    "tagcustom": "badge pill orange float-right mr-10",
+                    "submenu_child": [
+                        {
+                            "url": "admin/profil/create",
+                            "name": "Nouvel Utilisateur",
+                            "i18n": "Modern",
+                            "slug": "dashboard-modern"
+                        },
+                        {
+                            "url": "admin/utilisateurs/liste",
+                            "name": "Liste des utilisateurs",
+                            "i18n": "Modern",
+                            "slug": "dashboard-modern"
+                        }
+                    ]
+                },
+                {
+                    "url": "admin/role/",
+                    "name": "Roles",
+                    "i18n": "eCommerce",
+                    "slug": "dashboard-ecommerce"
+                },
+                {
+                    "url": "Organisations",
+                    "name": "Organisations",
+                    "i18n": "Analytics",
+                    "slug": "dashboard-analytics"
+                }
+            ]
+        },
+        {
+            "url": "/packs",
+            "name": "Packs",
+            "i18n": "Chat",
+            "class": "waves-effect waves-cyan",
+            "icon": "card_giftcard",
+            "slug": "app-chat"
+        },
+        {
+            "url": "campagnes",
+            "name": "Campagnes",
+            "i18n": "ToDo",
+            "class": "waves-effect waves-cyan",
+            "icon": "assignment",
+            "slug": "app-todo"
+        },
+        {
+            "url": "/marches",
+            "name": "Marches",
+            "i18n": "Kanban",
+            "class": "waves-effect waves-cyan",
+            "icon": "store",
+            "slug": "app-kanban"
+        },
+        {
+            "url": "/produits",
+            "name": "Produits",
+            "i18n": "File Manager",
+            "class": "waves-effect waves-cyan",
+            "icon": "settings_input_svideo",
+            "slug": "app-file-manager"
+        },
+        {
+            "url": "/langue",
+            "name": "Langues",
+            "i18n": "Contacts",
+            "class": "waves-effect waves-cyan",
+            "icon": "spellcheck",
+            "slug": "app-contacts"
+        },
+        {
+            "navheader": "Services",
+            "icon": "more_horiz"
+        },
+        {
+            "url": "/information_climatique",
+            "name": "Informations Climatiques",
+            "i18n": "User Profile",
+            "class": "waves-effect waves-cyan",
+            "icon": "cloud_queue",
+            "slug": "user-profile-page"
+        },
+        {
+            "url": "/prix_du_marche",
+            "name": "Prix du Marche",
+            "i18n": "Pages",
+            "class": "collapsible-header waves-effect waves-cyan",
+            "slug": "pages",
+            "icon": "attach_money",
+            "submenu": [
+                {
+                    "url": "page-contact",
+                    "name": "Contact",
+                    "i18n": "Contact",
+                    "slug": "page-contact"
+                }
+            ]
+        },
+        {
+            "url": "/vocale",
+            "name": "Alerte Vocale",
+            "i18n": "Medias",
+            "class": "collapsible-header waves-effect waves-cyan",
+            "slug": "medias",
+            "icon": "keyboard_voice",
+            "submenu": [
+                {
+                    "url": "media-gallery-page",
+                    "name": "Gallery Page",
+                    "i18n": "Gallery Page",
+                    "slug": "media-gallery-page"
+                }
+            ]
+        },
+        {
+            "url": "/expression_de_besoin",
+            "name": "Expressions de besoin",
+            "i18n": "User",
+            "class": "collapsible-header waves-effect waves-cyan",
+            "slug": "user",
+            "icon": "record_voice_over",
+            "tag": "3",
+            "tagcustom": "badge pill purple float-right mr-10",
+            "submenu": [
+                {
+                    "url": "page-users-list",
+                    "name": "List",
+                    "i18n": "List",
+                    "slug": "users-list"
+                }
+            ]
+        },
+        {
+            "url": "/offre_de_credit",
+            "name": "Offres de credit",
+            "i18n": "Authentication",
+            "class": "collapsible-header waves-effect waves-cyan",
+            "slug": "authentication",
+            "icon": "lock_open",
+            "tag": "10",
+            "tagcustom": "badge pill purple float-right mr-10",
+            "submenu": [
+                {
+                    "url": "user-login",
+                    "name": "Login",
+                    "i18n": "Login",
+                    "slug": "user-login",
+                    "newTab": "_blank"
+                }
+            ]
+        },
+        {
+            "url": "declaration_de_sinistre",
+            "name": "Declaration de sinistres",
+            "i18n": "Misc",
+            "class": "collapsible-header waves-effect waves-cyan",
+            "slug": "misc",
+            "icon": "report_problem",
+            "submenu": [
+                {
+                    "url": "page-404",
+                    "name": "404",
+                    "i18n": "404",
+                    "slug": "page-404",
+                    "newTab": "_blank"
+                }
+            ]
+        },
+
+        {
+            "url": "declaration-de-sinistre",
+            "name": "Declaration de sinistres",
+            "i18n": "Misc",
+            "slug": "misc",
+            "icon": "report_problem"
+        },
+        {
+            "navheader": "Data ",
+            "icon": "more_horiz"
+        },
+        {
+            "url": "/statistique",
+            "name": "Statistiques",
+            "i18n": "Cards",
+            "class": "collapsible-header waves-effect waves-cyan",
+            "slug": "cards",
+            "icon": "multiline_chart",
+            "submenu": [
+                {
+                    "url": "cards-basic",
+                    "name": "Cards",
+                    "i18n": "Cards",
+                    "slug": "cards-basic"
+                }
+            ]
+        },
+        {
+            "url": "/historique",
+            "name": "Historique",
+            "i18n": "CSS",
+            "class": "collapsible-header waves-effect waves-cyan",
+            "slug": "css",
+            "icon": "access_time",
+            "submenu": []
+        }
+    ]
+}

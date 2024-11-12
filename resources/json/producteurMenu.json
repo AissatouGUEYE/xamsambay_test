@@ -1,0 +1,161 @@
+{
+    "menu": [
+        {
+            "url": "javascript:void(0)",
+            "name": "Dashboard Prod",
+            "i18n": "Dashboard",
+            "class": "collapsible-header waves-effect waves-cyan",
+            "slug": "dashboard",
+            "icon": "dashboard",
+            "tag": "3",
+            "tagcustom": "badge pill orange float-right mr-10"
+        },
+        {
+            "navheader": "Gestion",
+            "icon": "more_horiz"
+        },
+
+        {
+            "url": "campagnes",
+            "name": "Campagnes",
+            "i18n": "ToDo",
+            "class": "waves-effect waves-cyan",
+            "icon": "assignment",
+            "slug": "app-todo"
+        },
+        {
+            "url": "marches",
+            "name": "Marches",
+            "i18n": "Kanban",
+            "class": "waves-effect waves-cyan ",
+            "icon": "store",
+            "slug": "app-kanban"
+        },
+        {
+            "url": "langue",
+            "name": "Langues",
+            "i18n": "Contacts",
+            "class": "waves-effect waves-cyan",
+            "icon": "spellcheck",
+            "slug": "app-contacts"
+        },
+        {
+            "url": "packs",
+            "name": "Packs",
+            "i18n": "Chat",
+            "class": "waves-effect waves-cyan",
+            "icon": "card_giftcard",
+            "slug": "app-chat"
+        },
+
+        {
+            "navheader": "Services",
+            "icon": "more_horiz"
+        },
+
+        {
+            "url": "vocale",
+            "name": "Alerte Vocale",
+            "i18n": "Medias",
+            "class": "collapsible-header waves-effect waves-cyan ",
+            "slug": "medias",
+            "icon": "keyboard_voice",
+            "submenu": []
+        },
+
+        {
+            "url": "declaration_de_sinistre",
+            "name": "Declaration de sinistres",
+            "i18n": "Misc",
+            "class": "collapsible-header waves-effect waves-cyan ",
+            "slug": "misc",
+            "icon": "report_problem",
+            "submenu": []
+        },
+        {
+            "url": "expression_de_besoin",
+            "name": "Expressions de besoin",
+            "i18n": "User",
+            "class": "collapsible-header waves-effect waves-cyan",
+            "slug": "user",
+            "icon": "record_voice_over",
+            "tag": "3",
+            "tagcustom": "badge pill purple float-right mr-10",
+            "submenu": []
+        },
+
+        {
+            "url": "information/climatique",
+            "name": "Informations Climatiques",
+            "i18n": "User Profile",
+            "class": "waves-effect waves-cyan ",
+            "icon": "cloud_queue",
+            "slug": "user-profile-page"
+        },
+
+        {
+            "url": "javascript:void(0)",
+            "name": "Louma Mbay",
+            "i18n": "Louma Mbay",
+            "class": "collapsible-header waves-effect waves-cyan ",
+            "slug": "dashboard",
+            "icon": "add_shopping_cart",
+            "tagcustom": "badge pill orange float-right mr-10",
+            "submenu": [
+                {
+                    "url": "louma-mbay/produits",
+                    "name": "Produits",
+                    "i18n": "File Manager",
+                    "class": "waves-effect waves-cyan ",
+                    "icon": "settings_input_svideo",
+                    "slug": "app-file-manager"
+                },
+                {
+                    "url": "louma-mbay/boutiques",
+                    "name": "Boutiques",
+                    "i18n": "kanban",
+                    "class": "waves-effect waves-cyan ",
+                    "icon": "store",
+                    "slug": "app-kanban"
+                }
+            ]
+        },
+
+        {
+            "url": "javascript:void(0)",
+            "name": "Louma du Savoir",
+            "i18n": "Louma du Savoir",
+            "class": "collapsible-header waves-effect waves-cyan ",
+            "slug": "dashboard",
+            "icon": "school",
+            "tagcustom": "badge pill orange float-right mr-10",
+            "submenu": [
+                {
+                    "url": "louma-du-savoir/cours",
+                    "name": "Cours",
+                    "i18n": "cours",
+                    "slug": "dashboard-wordpresss"
+                }
+            ]
+        },
+        {
+            "url": "prix/marche",
+            "name": "Prix du Marche",
+            "i18n": "Pages",
+            "class": "collapsible-header waves-effect waves-cyan ",
+            "slug": "pages",
+            "icon": "attach_money",
+            "submenu": []
+        },
+        {
+            "url": "offre_de_credit",
+            "name": "Offres de credit",
+            "i18n": "Authentication",
+            "class": "collapsible-header waves-effect waves-cyan",
+            "slug": "authentication",
+            "icon": "lock_open",
+            "tag": "10",
+            "tagcustom": "badge pill purple float-right mr-10"
+        }
+    ]
+}

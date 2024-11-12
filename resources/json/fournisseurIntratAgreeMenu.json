@@ -1,0 +1,51 @@
+{
+    "menu": [
+        {
+            "url": "dashboard",
+            "name": "Dashboard",
+            "i18n": "Dashboard",
+            "slug": "dashboard",
+            "icon": "dashboard"
+        },
+        {
+            "navheader": "Gestion",
+            "icon": "more_horiz"
+        },
+        {
+            "url": "distributions",
+            "name": "Distributions FIA/CC",
+            "i18n": "User",
+            "class": "waves-effect waves-cyan",
+            "slug": "user",
+            "icon": "local_shipping"
+        },
+        {
+            "url": "rattachements",
+            "name": "Communes",
+            "i18n": "User",
+            "class": "waves-effect waves-cyan",
+            "slug": "user",
+            "icon": "location_on"
+        },
+        {
+            "url": "/intrants_rattachement",
+            "name": "Intrants",
+            "i18n": "User",
+            "class": "waves-effect waves-cyan",
+            "slug": "user",
+            "icon": "card_giftcard"
+        },
+        {
+            "navheader": "Services",
+            "icon": "more_horiz"
+        },
+        {
+            "url": "se/expression-de-besoin",
+            "name": "Expressions de besoin",
+            "i18n": "User",
+            "class": "waves-effect waves-cyan",
+            "slug": "user",
+            "icon": "record_voice_over"
+        }
+    ]
+}

@@ -1,0 +1,347 @@
+.bg-mlouma {
+    background-image: url("../../../images/logo/bg.png");
+    /* background-size: cover;
+  background-repeat: no-repeat;
+ background-position: center; */
+}
+
+.slider-gradient2 .slides li::after {
+    background: linear-gradient( -90deg, rgba(219, 233, 231, 0.2), rgba(232, 236, 236, 0.2));
+}
+
+.hdr-logo1 a img {
+    height: 100px;
+    padding-top: 10px;
+}
+
+.titre-crm {
+    display: inline-block;
+    /* margin: 5 1px; */
+    font-size: 30px;
+    color: black;
+}
+
+.titre-crm.v1 {
+    font-weight: 600;
+    font-size: 46px;
+    letter-spacing: 1, 5px;
+    color: #fff;
+}
+
+.titre-crm.v2 {
+    font-weight: 300;
+    font-size: 42px;
+    letter-spacing: 0, 5px;
+    color: #fff;
+}
+
+.circle {
+    margin-left: 18%;
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+}
+
+.icon-login {
+    font-size: 24px;
+}
+
+.menu>li a.hdr-search2 i {
+    font-size: 20px;
+}
+
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+    padding: 12px 16px;
+    z-index: 1;
+}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+.footer-img img {
+    height: 150px;
+    width: 100px;
+    /* margin-top: 15px; */
+}
+
+
+/* .icon-play i{
+    color: green;
+    margin-left: 20px;
+    padding-top: 15px;
+} */
+
+@media (max-width: 994px) {
+    .icon-play {
+        display: none;
+    }
+    .titre-crm.v1 {
+        color: #000;
+    }
+    .titre-crm.v2 {
+        color: #000;
+    }
+}
+
+.img-card {
+    height: 150px;
+    width: 150px;
+}
+
+.video-position {
+    display: table;
+    table-layout: fixed;
+    position: fixed;
+    /* top: 0;
+    left: 0; */
+    /* top: 7%;
+    left: 12%; */
+    width: 100%;
+    height: 100%;
+    background-color: rgba(255, 255, 255, 0.3);
+    animation-duration: 0.4s;
+}
+
+.modal-dialog {
+    max-width: 1800px;
+    /* width: 1000px; */
+    margin: 50px auto;
+}
+
+.modal-body {
+    position: relative;
+    padding: 0px;
+}
+
+.close {
+    position: absolute;
+    right: -30px;
+    top: 0;
+    z-index: 999;
+    font-size: 2rem;
+    font-weight: normal;
+    color: #fff;
+    opacity: 1;
+}
+
+.chevron {
+    padding-top: 50%;
+    /* margin-bottom: 50%; */
+}
+
+.title-carousel {
+    padding-top: 5px;
+    font-size: 12px;
+    font-weight: 600;
+    letter-spacing: 0, 5px;
+}
+
+.p-accord {
+    color: black;
+    background-color: rgba(128, 128, 128, 0.217);
+}
+
+.p-card {
+    /* width: 100px; */
+    /* height: 65px; */
+    padding-top: 15px;
+    text-align: center;
+    /* word-wrap: break-word; */
+}
+
+.card-hover {
+    text-decoration: none;
+}
+
+.card-hover:hover {
+    background-color: rgb(1, 68, 1);
+}
+
+.card-border {
+    border: 2px solid #a2673b !important;
+    /* Bordure marron partout */
+    border-radius: 25px !important;
+    /* Coins arrondis */
+}
+
+
+/* Pour l'en-tête de la carte */
+
+.card-header {
+    background-color: #a2673b !important;
+    /* Fond marron pour l'en-tête */
+    border-bottom: 2px solid #a2673b !important;
+    /* Bordure marron en bas de l'en-tête */
+    border-top-left-radius: 23px !important;
+    /* Coin arrondi en haut à gauche */
+    border-top-right-radius: 23px !important;
+    /* Coin arrondi en haut à droite */
+}
+
+.corner-footer {
+    /* margin-bottom: 0; */
+    padding: 0 !important;
+    border-bottom-left-radius: 25px !important;
+    border-bottom-right-radius: 25px !important;
+}
+
+.active-carousel {
+    background-color: #d16208;
+}
+
+.active-carousel:hover {
+    background-color: #ac5207;
+}
+
+.push {
+    font-size: 50px;
+    font-weight: 700;
+    letter-spacing: 0.2px;
+    /* margin-bottom: 5px;   */
+}
+
+.styled {
+    background-color: #fff;
+}
+
+.vert-louma {
+    color: #33a644 !important;
+}
+
+.bg-vert-louma {
+    background-color: #33a644 !important;
+}
+
+.li-view {
+    font-weight: 600;
+}
+
+.sup {
+    font-size: 17px;
+    font-weight: bold;
+    line-height: 1;
+    vertical-align: top;
+    margin-right: 10px;
+    color: #000;
+}
+
+.price {
+    font-size: 30px;
+    font-weight: bold;
+    color: #000;
+    /* font-family: "Dosis", "Poppins", sans-serif; */
+    line-height: 1;
+}
+
+.qty {
+    color: #d16208;
+    font-size: 17px;
+}
+
+.icon-size {
+    font-size: 24px;
+}
+
+.offres-test-ul {
+    margin: 0 10px 10px;
+    padding: 5px 0;
+    list-style: none;
+}
+
+.offres-test-li {
+    list-style: none;
+    padding: 3px 0;
+}
+
+
+/* START GREEN API STYLE */
+
+.card {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+}
+
+.card-body {
+    flex-grow: 1;
+}
+
+.pricing-footer {
+    margin-top: auto;
+}
+
+.pricing-footer .btn {
+    margin-bottom: 15px;
+    margin-top: 15px;
+    /* Ajuste cette valeur selon l'espace que tu souhaites */
+}
+
+.section-title {
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: #333;
+}
+
+.price {
+    font-size: 1.25rem;
+    font-weight: bold;
+    color: #000;
+}
+
+.sup small {
+    font-size: 0.875rem;
+}
+
+.btn-lg {
+    padding: 10px 30px;
+    font-size: 1.25rem;
+    font-weight: 600;
+    text-transform: uppercase;
+    border-radius: 50px;
+}
+
+.shadow {
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.rounded-pill {
+    border-radius: 50px;
+}
+
+.li-view2 {
+    list-style-type: disc !important;
+    /* Garde la puce à l'extérieur mais proche du texte */
+    margin-left: 80px;
+    /* Espace entre le bord du cadre et la puce */
+    padding-left: 0px;
+    /* Ajuste l'espacement entre la puce et le texte */
+}
+
+
+/* .centered-list {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    list-style: none;
+    padding-left: 0;
+} */
+
+
+/* .bg-greenapi {
+    color: #FF8C00
+} */
+
+
+/* END GREEN API STYLE */

@@ -1,0 +1,98 @@
+{
+    "menu": [
+        {
+            "url": "dashboard",
+            "name": "Dashboard FERME",
+            "i18n": "Dashboard",
+
+            "slug": "dashboard",
+            "icon": "dashboard"
+        },
+        {
+            "navheader": "Gestion",
+            "icon": "more_horiz"
+        },
+        {
+            "url": "ferme/administration",
+        "name": "Demandes administratives",
+            "i18n": "User",
+            "class": " waves-effect waves-cyan",
+            "slug": "user",
+            "icon": "event"
+           
+        },
+        {
+            "url": "ferme/tache",
+            "name": "Tâches",
+            "i18n": "Work",
+            "class": " waves-effect waves-cyan",
+            "slug": "Work",
+            "icon": "work"
+           
+        },
+        {
+            "url": "ferme/eb",
+            "name": "Expressions de besoin",
+            "i18n": "User",
+            "class": " waves-effect waves-cyan",
+            "slug": "user",
+            "icon": "record_voice_over"
+           
+        },
+        {
+            "url": "javascript:void(0)",
+            "name": "Production",
+            "i18n": "User",
+            "class": "collapsible-header waves-effect waves-cyan",
+            "slug": "prod",
+            "icon": "playlist_add",
+            "submenu": [
+                {
+                    "url": "ferme/production",
+                        "name": "Produits",
+                        "i18n": "produits",
+                        "slug": "dashboard"
+                    },
+                    {
+                        "url": "ferme/activite",
+                        "name": "Activités",
+                        "i18n": "eCommerce",
+                        "slug": "dashboard-ecommerce"
+                    },
+                    {
+                        "url": "ferme/stock",
+                        "name": "Stocks",
+                        "i18n": "eCommerce",
+                        "slug": "dashboard-ecommerce"
+                    }
+                   
+            ]
+           
+        },  
+        
+        {
+            "url": "javascript:void(0)",
+            "name": "Finance",
+            "i18n": "Medias",
+            "class": "collapsible-header waves-effect waves-cyan",
+            "slug": "finance",
+            "icon": "attach_money",
+            "submenu": [
+                {
+                    "url": "ferme/finance/vente",
+                    "name": "Vente",
+                    "i18n": "eCommerce",
+                    "slug": "dashboard-ecommerce"
+                },
+            
+                {
+                    "url": "ferme/finance/decaissement",
+                    "name": "Décaissement",
+                    "i18n": "eCommerce",
+                    "slug": "dashboard-ecommerce"
+                }
+                
+            ]
+        }
+    ]
+}

@@ -1,0 +1,158 @@
+{
+    "adminMenu": [
+        {
+            "path": "resources/json/adminMenu.json",
+            "key": 0
+        }
+    ],
+    "opMenu": [
+        {
+            "path": "resources/json/opMenu.json",
+            "key": 1
+        }
+    ],
+    "ongMenu": [
+        {
+            "path": "resources/json/ongMenu.json",
+            "key": 2
+        }
+    ],
+    "financeMenu": [
+        {
+            "path": "resources/json/financeMenu.json",
+            "key": 3
+        }
+    ],
+    "individuelMenu": [
+        {
+            "path": "resources/json/individuelMenu.json",
+            "key": 4
+        }
+    ],
+    "assuranceMenu": [
+        {
+            "path": "resources/json/assuranceMenu.json",
+            "key": 5
+        }
+    ],
+    "interprofessionMenu": [
+        {
+            "path": "resources/json/interprofessionMenu.json",
+            "key": 6
+        }
+    ],
+    "producteurMenu": [
+        {
+            "path": "resources/json/producteurMenu.json",
+            "key": 7
+        }
+    ],
+    "seMenu": [
+        {
+            "path": "resources/json/seMenu.json",
+            "key": 8
+        }
+    ],
+    "transportMenu": [
+        {
+            "path": "resources/json/transportMenu.json",
+            "key": 9
+        }
+    ],
+    "acheteurMenu": [
+        {
+            "path": "resources/json/acheteurMenu.json",
+            "key": 10
+        }
+    ],
+    "fermeMenu": [
+        {
+            "path": "resources/json/fermeMenu.json",
+            "key": 11
+        }
+    ],
+    "RAfermeMenu": [
+        {
+            "path": "resources/json/responsableActivite.json",
+            "key": 12
+        }
+    ],
+    "ComptablefermeMenu": [
+        {
+            "path": "resources/json/comptableFermeMenu.json",
+            "key": 13
+        }
+    ],
+    "RComfermeMenu": [
+        {
+            "path": "resources/json/responsableComFermeMenu.json",
+            "key": 14
+        }
+    ],
+    "mLoumerMenu": [
+        {
+            "path": "resources/json/mLoumerMenu.json",
+            "key": 15
+        }
+    ],
+    "IPMenu": [
+        {
+            "path": "resources/json/fournisseurIntratMenu.json",
+            "key": 16
+        }
+    ],
+    "metaOpMenu": [
+        {
+            "path": "resources/json/metaOpMenu.json",
+            "key": 17
+        }
+    ],
+    "gerantMenu": [
+        {
+            "path": "resources/json/gerantMenu.json",
+            "key": 18
+        }
+    ],
+    "superviseurMenu": [
+        {
+            "path": "resources/json/superviseurMenu.json",
+            "key": 19
+        }
+    ],
+    "markComMenu": [
+        {
+            "path": "resources/json/markComMenu.json",
+            "key": 20
+        }
+    ],
+    "financeAdminMenu": [
+        {
+            "path": "resources/json/financeAdminMenu.json",
+            "key": 21
+        }
+    ],
+    "busDevMenu": [
+        {
+            "path": "resources/json/busDevMenu.json",
+            "key": 22
+        }
+    ],
+    "boutiquierMenu": [
+        {
+            "path": "resources/json/vendeurMenu.json",
+            "key": 23
+        }
+    ],
+    "fiaMenu": [
+        {
+            "path": "resources/json/fournisseurIntratAgreeMenu.json",
+            "key": 24
+        }
+    ],
+    "CCMenu": [
+        {
+            "path": "resources/json/commissionCessionMenu.json",
+            "key": 25
+        }
+    ]
+}

@@ -1,0 +1,66 @@
+{
+    "menu": [
+        {
+            "url": "dashboard",
+            "name": "Dashboard",
+            "i18n": "Dashboard",
+            "slug": "dashboard",
+            "icon": "dashboard"
+        },
+        {
+            "navheader": "Gestion",
+            "icon": "more_horiz"
+        },
+        {
+            "url": "javascript:void(0)",
+            "name": "Profil",
+            "i18n": "Profil",
+            "class": "collapsible-header waves-effect waves-cyan",
+            "slug": "profil",
+            "icon": "person_outline",
+            "tagcustom": "badge pill orange float-right mr-10",
+            "submenu": [
+                {
+                    "url": "entite/fia",
+                    "name": "Fournisseur Intrants Agréé",
+                    "i18n": "Utilisateurs",
+                    "slug": "dashboard"
+                },
+                {
+                    "url": "entite/cc",
+                    "name": "Commission de Cession",
+                    "i18n": "eCommerce",
+                    "slug": "dashboard-ecommerce"
+                }
+            ]
+        },
+        {
+            "navheader": "Services",
+            "icon": "more_horiz"
+        },
+        {
+            "url": "se/expression-de-besoin",
+            "name": "Expressions de besoin",
+            "i18n": "User",
+            "class": "waves-effect waves-cyan",
+            "slug": "user",
+            "icon": "record_voice_over"
+        },
+        {
+            "url": "distributions",
+            "name": "Distribution FIA/CC",
+            "i18n": "User",
+            "class": "waves-effect waves-cyan",
+            "slug": "user",
+            "icon": "card_giftcard"
+        },
+        {
+            "url": "receptions/intrants",
+            "name": "Reception CC/OP",
+            "i18n": "User",
+            "class": "waves-effect waves-cyan",
+            "slug": "user",
+            "icon": "local_shipping"
+        }
+    ]
+}

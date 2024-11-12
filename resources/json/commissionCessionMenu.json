@@ -1,0 +1,43 @@
+{
+    "menu": [
+        {
+            "url": "dashboard",
+            "name": "Dashboard",
+            "i18n": "Dashboard",
+            "slug": "dashboard",
+            "icon": "dashboard"
+        },
+        {
+            "navheader": "Gestion",
+            "icon": "more_horiz"
+        },
+        {
+            "url": "cc/reception/distribution",
+            "name": "Reception FIA/CC",
+            "i18n": "User",
+            "class": "waves-effect waves-cyan",
+            "slug": "user",
+            "icon": "card_giftcard"
+        },
+        {
+            "navheader": "Services",
+            "icon": "more_horiz"
+        },
+        {
+            "url": "distributions/cc/intrants",
+            "name": "Distributions CC/OP",
+            "i18n": "User",
+            "class": "waves-effect waves-cyan",
+            "slug": "user",
+            "icon": "local_shipping"
+        },
+        {
+            "url": "cc/expression-de-besoin",
+            "name": "Expressions de besoin",
+            "i18n": "User",
+            "class": "waves-effect waves-cyan",
+            "slug": "user",
+            "icon": "record_voice_over"
+        }
+    ]
+}
